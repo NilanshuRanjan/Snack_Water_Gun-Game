@@ -39,7 +39,7 @@ def snake_water_gun():
             print("computer wins")
             break
         elif user_points == n:
-            print("computer wins")
+            print("You win")
             break
     ch = input("\nwanna play again if yes then enter Y: ")
     if ch in "Yy":
